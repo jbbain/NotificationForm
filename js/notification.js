@@ -1,5 +1,3 @@
-var mainContainer = document.getElementById("supervisors");
-
 fetch('https://609aae2c0f5a13001721bb02.mockapi.io/lightfeather/managers')
   .then((response) => {
     return response.json();
